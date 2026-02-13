@@ -1,7 +1,7 @@
-import Men from "../../assets/Images/Men.webp";
-import Women from "../../assets/Images/Women.webp";
-import New from "../../assets/Images/New.webp";
-import Accessories from "../../assets/Images/Accessories.webp";
+import Men from "../../assets/image/Men.webp";
+import Women from "../../assets/image/Women.webp";
+import New from "../../assets/image/New.webp";
+import Accessories from "../../assets/image/Accessories.webp";
 import { Link } from "react-router-dom";
 
 export default function Preview() {

@@ -1,7 +1,7 @@
 // src/components/Home/PromoBanner.jsx
 import { Carousel } from "rsuite";
 import "rsuite/dist/rsuite-no-reset.min.css";
-import Watch from "../../assets/Images/Watch.webp";
+import Watch from "../../assets/image/Watch.webp";
 
 export default function PromoCarousel() {
   return (

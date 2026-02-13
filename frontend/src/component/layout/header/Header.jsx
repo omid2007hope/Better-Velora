@@ -29,7 +29,7 @@ import { useSelector } from "react-redux";
 import LoginPopup from "../accountPage/signupAndLogin/Login";
 import WomanPhoto from "./category/WomanCategory";
 import MenPhoto from "./category/MenCategory";
-import Logo from "../../../assets/Images/Logo.webp";
+import Logo from "../../../assets/image/Logo.webp";
 
 const navigation = {
   categories: [

@@ -5,7 +5,7 @@ import {
   ArrowPathIcon,
 } from "@heroicons/react/24/outline";
 
-import S from "../../assets/Images/S.webp";
+import S from "../../assets/image/S.webp";
 
 export default function Service() {
   const features = [
