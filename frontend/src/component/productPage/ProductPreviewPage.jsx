@@ -5,7 +5,6 @@ import { products } from "../../../utils/Products";
 import { useDispatch } from "react-redux";
 import { addItem } from "../../redux/slice/BasketSlice";
 import withMenuLayout from "../layout/index";
-import { Seo } from "../../../utils/SEO/SEO";
 
 function ProductPreview() {
   const { id } = useParams();
@@ -101,29 +100,6 @@ function ProductPreview() {
 
   return (
     <div className="min-h-screen bg-orange-100 px-6 lg:px-20 py-10 pt-28">
-      <Seo
-        title={`${product.name} | Velora`}
-        description={`${product.name} is available now at Velora. Choose your color and size, curated by Omid Teimory.`}
-        image={product.image}
-        type="product"
-        structuredData={{
-          "@context": "https://schema.org",
-          "@type": "Product",
-          name: product.name,
-          image: product.image,
-          offers: {
-            "@type": "Offer",
-            priceCurrency: "USD",
-            price: product.newPrice,
-            availability: "https://schema.org/InStock",
-          },
-          brand: {
-            "@type": "Brand",
-            name: "Velora",
-          },
-        }}
-      />
-
       {/* Header */}
       <div className="flex items-center justify-between mb-10">
         <button
