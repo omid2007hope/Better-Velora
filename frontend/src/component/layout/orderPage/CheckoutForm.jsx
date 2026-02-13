@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { clearBasket } from "../../store/basketSlice";
+import { clearBasket } from "../../../redux/slice/BasketSlice";
 
 export default function Checkout({ product, setStep }) {
   const navigate = useNavigate();

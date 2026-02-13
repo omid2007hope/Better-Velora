@@ -1,4 +1,4 @@
-import PromoBanner from "../../components/Home/WatchBanner";
+import PromoBanner from "./WatchBanner";
 import { Link } from "react-router-dom";
 
 export default function WatchCollection() {

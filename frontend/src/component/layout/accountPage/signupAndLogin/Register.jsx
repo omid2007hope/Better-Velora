@@ -1,6 +1,6 @@
 import { Dialog, DialogBackdrop, DialogPanel } from "@headlessui/react";
 import { useState, useEffect } from "react";
-import GoogleSignIn from "./GoogleSignIn";
+import GoogleSignIn from "./Google";
 
 export default function SignupPopup({ open, setOpen }) {
   const [fullName, setFullName] = useState("");

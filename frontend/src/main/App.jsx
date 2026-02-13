@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import HomePage from "./pages/HomePage.jsx";
-import OrderPage from "./pages/OrderPage.jsx";
-import ProductPage from "./pages/ProductPage.jsx";
-import AccountPage from "./pages/AccountPage.jsx";
-import ProductListPage from "./pages/ProductListPage.jsx";
-import AddressForm from "./components/Layout/AccountPages/AddressForm";
-import PaymentForm from "./components/Layout/AccountPages/PaymentForm";
+import HomePage from "../page/HomePage.jsx";
+import OrderPage from "../page/OrderPage.jsx";
+import ProductPage from "../page/ProductPage.jsx";
+import AccountPage from "../page/AccountPage.jsx";
+import ProductListPage from "../page/ProductListPage.jsx";
+import AddressForm from "../component/layout/accountPage/accountSetting/Address.jsx";
+import PaymentForm from "../component/layout/accountPage/accountSetting/Payment.jsx";
 
 function App() {
   return (

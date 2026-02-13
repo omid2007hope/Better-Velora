@@ -1,7 +1,7 @@
 import { Link, useNavigate } from "react-router-dom";
-import { products } from "../../utils/products";
+import { products } from "../../../utils/Products";
 import { useDispatch } from "react-redux";
-import { addItem } from "../../store/basketSlice";
+import { addItem } from "../../redux/slice/BasketSlice";
 
 const preview = products.filter((x) => x.id < 5);
 

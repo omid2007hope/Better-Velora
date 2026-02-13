@@ -2,7 +2,7 @@ import { Dialog, DialogBackdrop, DialogPanel } from "@headlessui/react";
 import { useEffect, useState } from "react";
 import SignupPopup from "./Register";
 import { useNavigate } from "react-router-dom";
-import GoogleSignIn from "./GoogleSignIn";
+import GoogleSignIn from "./Google";
 
 export default function LoginPopup({ open, setOpen, setUser }) {
   const [email, setEmail] = useState("");

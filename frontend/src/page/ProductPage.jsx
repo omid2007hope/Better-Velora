@@ -1,4 +1,4 @@
-import ProductPreview from "../components/Product/ProductPreview";
+import ProductPreview from "../component/productPage/ProductPreviewPage";
 
 function ProductPage() {
   return (

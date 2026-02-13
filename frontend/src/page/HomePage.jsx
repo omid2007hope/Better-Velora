@@ -1,10 +1,10 @@
-import Preview from "../components/Home/Preview";
-import Promo from "../components/Home/Promo";
-import WithMenuLayout from "../components/Layout/Index";
-import Service from "../components/Home/Service";
-import Deals from "../components/Home/Deals";
-import WatchCollection from "../components/Home/WatchCollection";
-import { Seo } from "../utils/seo";
+import Preview from "../component/homePage/CategoryPreview";
+import Promo from "../component/homePage/Promo";
+import WithMenuLayout from "../component/layout/index";
+import Service from "../component/homePage/Service";
+import Deals from "../component/homePage/DealsPreview";
+import WatchCollection from "../component/homePage/WatchCollectionPreview";
+import { Seo } from "../../utils/SEO/SEO";
 import Banner from "../assets/Images/Banner.webp";
 
 function HomePage() {

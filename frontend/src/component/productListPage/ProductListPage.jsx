@@ -1,7 +1,7 @@
 import { ArrowLeft, Filter } from "lucide-react";
 import { Link, useSearchParams } from "react-router-dom";
 import SearchBar from "./Searchbar.jsx";
-import { products } from "../../utils/products";
+import { products } from "../../../utils/Products";
 import { useEffect, useMemo, useState } from "react";
 
 export default function ProductList() {

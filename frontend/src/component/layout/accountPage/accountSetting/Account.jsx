@@ -1,7 +1,7 @@
 // src/pages/AccountSettings.jsx
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import SideBarLayOut from "./Layout";
+import SideBarLayOut from "./AccountLayout";
 
 function AccountSettings() {
   const [user, setUser] = useState({

@@ -1,8 +1,8 @@
 import { useState } from "react";
-import ShoppingCart from "../components/Order/ShoppingCart";
-import Checkout from "../components/Order/Checkout";
-import WithMenuLayout from "../components/Layout/Index";
-import { Seo } from "../utils/seo";
+import ShoppingCart from "../component/layout/orderPage/BasketPage";
+import Checkout from "../component/layout/orderPage/CheckoutForm";
+import WithMenuLayout from "../component/layout/index";
+import { Seo } from "../../utils/SEO/SEO";
 
 function OrderPage() {
   const [step, setStep] = useState(1);

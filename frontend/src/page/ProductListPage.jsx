@@ -1,6 +1,6 @@
-import WithMenuLayout from "../components/Layout/Index";
-import ProductList from "../components/ProductList/ProductList";
-import { Seo } from "../utils/seo";
+import WithMenuLayout from "../component/layout/index";
+import ProductList from "../component/productListPage/ProductListPage";
+import { Seo } from "../../utils/SEO/SEO";
 
 function ProductListPage() {
   return (

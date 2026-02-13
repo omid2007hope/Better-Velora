@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
-import { removeItem, updateQuantity } from "../../store/basketSlice";
+import { removeItem, updateQuantity } from "../../../redux/slice/BasketSlice";
 
 export default function ShoppingCart({ setStep, setProduct }) {
   const dispatch = useDispatch();

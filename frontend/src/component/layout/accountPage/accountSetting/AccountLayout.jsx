@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { UserIcon, Menu, X } from "lucide-react";
-import SignOutForm from "./SignOutForm";
+import SignOutForm from "./Signout";
 
 function SideBarLayOut(WrappedComponent) {
   const HOC = (props) => {

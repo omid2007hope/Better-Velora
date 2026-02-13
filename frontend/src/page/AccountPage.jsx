@@ -1,5 +1,5 @@
-import Account from "../components/Layout/AccountPages/Account";
-import { Seo } from "../utils/seo";
+import Account from "../component/layout/accountPage/accountSetting/Account";
+import { Seo } from "../../utils/SEO/SEO";
 
 function AccountPage() {
   return (

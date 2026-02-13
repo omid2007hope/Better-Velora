@@ -1,11 +1,11 @@
 import { useEffect, useMemo, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { ArrowLeft, Star } from "lucide-react";
-import { products } from "../../utils/products";
+import { products } from "../../../utils/Products";
 import { useDispatch } from "react-redux";
-import { addItem } from "../../store/basketSlice";
-import withMenuLayout from "../Layout/Index";
-import { Seo } from "../../utils/seo";
+import { addItem } from "../../redux/slice/BasketSlice";
+import withMenuLayout from "../layout/index";
+import { Seo } from "../../../utils/SEO/SEO";
 
 function ProductPreview() {
   const { id } = useParams();

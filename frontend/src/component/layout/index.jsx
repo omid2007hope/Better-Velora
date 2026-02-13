@@ -1,4 +1,4 @@
-import Header from "../Layout/Header/Header";
+import Header from "./header/Header";
 
 function withMenuLayout(WrappedComponent) {
   const HOC = (props) => (

@@ -26,9 +26,9 @@ import { Link } from "react-router-dom";
 import { CircleUserRound } from "lucide-react";
 import { useSelector } from "react-redux";
 
-import LoginPopup from "../SignUpAndLogIn/Login";
-import WomanPhoto from "./WomanPhoto";
-import MenPhoto from "./MenPhoto";
+import LoginPopup from "../accountPage/signupAndLogin/Login";
+import WomanPhoto from "./category/WomanCategory";
+import MenPhoto from "./category/MenCategory";
 import Logo from "../../../assets/Images/Logo.webp";
 
 const navigation = {
