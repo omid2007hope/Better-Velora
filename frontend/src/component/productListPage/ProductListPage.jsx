@@ -49,7 +49,7 @@ export default function ProductList() {
       {/* SIDEBAR */}
       <aside className="hidden md:flex flex-col w-1/4 lg:w-1/6 min-h-[calc(100vh-96px)] border-r-2 border-amber-900 bg-orange-100 shadow-lg">
         {/* SEARCH */}
-        <div className="flex flex-col items-center justify-center border-b-2 border-amber-900 shadow-md p-4 pt-30">
+        <div className="flex flex-col items-center justify-center border-b-2 border-amber-900 shadow-md p-4 pt-7">
           <SearchBar
             value={searchText}
             onChange={setSearchText}
